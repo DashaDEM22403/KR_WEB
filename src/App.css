@@ -1,0 +1,60 @@
+
+.Main {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Widget h1 {
+    margin: 0 0 10px;
+}
+
+.form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.stock-list {
+    justify-content: center;
+}
+
+.value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value h1 {
+    margin: 10px;
+}
+
+.delete_button {
+    height: 50%;
+}
+
+.suggested-stock {
+    margin:5px;
+    padding:0;
+    cursor: pointer;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.suggested-stock__array {
+    display: flex;
+    margin-bottom: 5px;
+}
